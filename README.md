@@ -1,9 +1,11 @@
 # AI Agent Coder 
 
-A simple, iterative AI agent that helps you build projects using Ollama or other LLM's API
+A simple, iterative AI agent that helps vibe coders to build projects using Ollama or other LLM's API
 Starts the code project for iterative vibe project by guiding AI with plain English.
+Agent Coder is an chat interactive command line interface tool designed to streamline your coding workflow using Large Language Models (LLMs). It allows you to prompt models via Ollama or OpenAI, view the generated code in a formatted terminal interface, and selectively save code blocks directly to your project files.
 
-Agent Coder is an chat interactive command line interface tool designed to streamline your coding workflow using Large Language Models (LLMs). It allows you to prompt models via Ollama or OpenAI, view the generated code in a beautifully formatted terminal interface, and selectively save code blocks directly to your project files.
+*** At this point this is just the base code for starting a project- there is still a lot of work to be done
+and need to work out the iterative features***
 
 ## 🚀 Features
 
