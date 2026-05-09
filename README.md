@@ -7,22 +7,22 @@ Agent Coder is an chat interactive command line interface tool designed to strea
 *** At this point this is just the base code for starting a project- there is still a lot of work to be done
 and need to work out the iterative features***
 
-## 🚀 Features
+##  Features
 
-- **Multi-Backend Support**: Seamlessly switch between local models via **Ollama** and cloud-based models via **OpenAI**.
+- **Multi-Backend Support**:  switch between local models via **Ollama** and cloud-based models via **OpenAI**.
 - **Interactive CLI**: Powered by `questionary` for a smooth, guided user experience.
 - **Code Extraction**: Automatically identifies and extracts markdown code blocks from LLM responses.
 - **Surgical File Saving**: Choose which generated code blocks to save and specify filenames on the fly.
 - **Rich Visuals**: Uses `rich` to provide syntax highlighting and clean panel-based layouts in the terminal.
-- **Extensible Architecture**: Built with an abstract base class system, making it easy to add new LLM providers.
+- **Extensible Architecture**: Built using modules with an abstract base class system, making it easy to add new LLM providers.
 
-## 🛠️ Prerequisites
+##  Prerequisites
 
 - **Python**: 3.8 or higher.
 - **Ollama** (optional): Install from [ollama.com](https://ollama.com/) if you plan to use local models.
 - **OpenAI API Key** (optional): Required if you plan to use OpenAI models.
 
-## 📦 Installation
+##  Installation
 
 1. **Clone the repository**:
    ```bash
@@ -67,4 +67,3 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 ## 📄 License
 
 This project is open-source and available under the MIT License.
-
