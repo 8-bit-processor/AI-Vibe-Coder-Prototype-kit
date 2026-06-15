@@ -1,0 +1,32 @@
+{
+  "transformer_enabled": false,
+  "rules": [
+    {
+      "name": "Rename Recommendation",
+      "action": "rename",
+      "hard_rules": [
+        "rename\\s+([\\w\\s\\./-]+\\.\\w+)\\s+to\\s+([\\w\\./-]+\\.\\w+)",
+        "move\\s+([\\w\\s\\./-]+\\.\\w+)\\s+to\\s+([\\w\\./-]+\\.\\w+)"
+      ],
+      "similarity_exemplars": [
+        "The error is due to the filename having a space. Rename the file to spaceinvaders.py",
+        "You should change the name of the file to avoid errors with spaces.",
+        "Corrected filename: spaceinvaders.py",
+        "Go ahead and modify the filename to remove the space char."
+      ],
+      "threshold": 0.7
+    },
+    {
+      "name": "Support Mode Refocus",
+      "action": "refocus",
+      "hard_rules": [],
+      "similarity_exemplars": [
+        "Open your IDE and navigate to the project directory.",
+        "Right-click on the file and select Open or Edit.",
+        "Paste the new code block into the editor and save by clicking File menu.",
+        "Use a text editor like Notepad++, Sublime Text, or Atom."
+      ],
+      "threshold": 0.25
+    }
+  ]
+}
